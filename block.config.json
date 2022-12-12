@@ -1,0 +1,13 @@
+{
+  "name": "sum_of_two_numbers_calculator",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/sum_of_two_numbers_calculator",
+    "ssh": "git@github.com:uttahb/sum_of_two_numbers_calculator.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
