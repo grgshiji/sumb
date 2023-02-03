@@ -16,7 +16,7 @@ const sum_of_two_numbers_calculator = async (req, res) => {
   }
 
   // Add your code here
-  res.write(JSON.stringify({ success: true, msg: `${sum}` }))
+  res.write(JSON.stringify({ success: true, msg: 'Sum is ', Result: `${sum}` }))
   res.end()
 
 }
